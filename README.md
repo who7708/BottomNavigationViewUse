@@ -225,4 +225,4 @@ private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemS
   <dimen name="design_bottom_navigation_margin">16dp</dimen>
   ```
 
-  把上面的 根据需要 copy 到 res/values/dimens 中就行
+  把上面的 根据需要 copy 到 res/values/dimens 中就行# BottomNavigationViewUse
