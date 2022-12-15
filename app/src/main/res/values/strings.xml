@@ -5,4 +5,5 @@
     <string name="title_notifications">Notifications</string>
     <string name="title_person">Personal</string>
     <string name="title_center">Center</string>
+    <string name="title_null">Nothing</string>
 </resources>

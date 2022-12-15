@@ -26,7 +26,9 @@ import java.util.List;
 public class BottomNavigationActivity extends AppCompatActivity {
 
     private List<Fragment> mFragmentList;
+
     private Fragment mCurrentFragment;
+
     private Toolbar mToolbar;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -70,6 +72,7 @@ public class BottomNavigationActivity extends AppCompatActivity {
         mFragmentList.add(DashBoardFragment.newInstance());
         mFragmentList.add(NotificationFragment.newInstance());
         mFragmentList.add(PersonalFragment.newInstance());
+        // 默认进行的fragment
         ActivityUtils.addFragmentToActivity(getSupportFragmentManager(), mFragmentList.get(0), R.id.fragment);
         mCurrentFragment = mFragmentList.get(0);
 
