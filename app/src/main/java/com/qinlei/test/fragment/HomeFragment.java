@@ -1,17 +1,15 @@
 package com.qinlei.test.fragment;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.util.Log;
+import androidx.annotation.Nullable;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.qinlei.test.R;
 import com.qinlei.test.base.BaseFragment;
-import com.qinlei.test.base.BaseLazyLoadFragment;
 
 /**
  * Created by qinlei
